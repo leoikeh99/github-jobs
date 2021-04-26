@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://country-quiz1900.netlify.app/">
+    <a href="https://githubjobs1000.netlify.app/">
       Demo
     </a>
     <span> | </span>
