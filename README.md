@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+<!-- Please update value in the {}  -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Weather app</h1>
 
-## Available Scripts
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-In the project directory, you can run:
+<div align="center">
+  <h3>
+    <a href="https://country-quiz1900.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/leoikeh99/weather-app">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Frameworks](#Frameworks-and-Libraries-used)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Contact](#contact)
 
-### `npm test`
+<!-- OVERVIEW -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `npm run build`
+![screenshot](/images/waether.PNG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://reactjs.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Frameworks and Libraries used
 
-### `npm run eject`
+-React.js
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Features
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Users can see city weather as default, preferably my current location
+- Users can search for city
+- Users can see weather of today and the next 5 days
+- Users can see the date and location of the weather
+- Users can see according to image for each type of weather
+- Users can see the min and max degree each day
+- Users can see wind status and wind direction
+- Users can see humidity percentage
+- Users can see a visibility indicator
+- Users can see the air pressure number
+- Users can request my current location weather
+- Users can convert temperature in Celcius to Fahrenheit and vice versa
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## How To Use
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- Example: -->
 
-## Learn More
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone this repository
+$ git clone https://github.com/leoikeh99/weather-app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install dependencies
+$ npm install
 
-### Code Splitting
+# Run the app
+$ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub [@leoikeh99](https://github.com/leoikeh99)
+- Twitter [@wazzadev](https://twitter.com/wazza_dev)
