@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Weather app</h1>
+<h1 align="center">Github Jobs</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/leoikeh99/weather-app">
+    <a href="https://github.com/leoikeh99/github-jobs">
       Solution
     </a>
     <span> | </span>
@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](/images/waether.PNG)
+![screenshot](/images/gitjobs.PNG)
 
 ### Built With
 
@@ -49,18 +49,15 @@
 
 ## Features
 
-- Users can see city weather as default, preferably my current location
-- Users can search for city
-- Users can see weather of today and the next 5 days
-- Users can see the date and location of the weather
-- Users can see according to image for each type of weather
-- Users can see the min and max degree each day
-- Users can see wind status and wind direction
-- Users can see humidity percentage
-- Users can see a visibility indicator
-- Users can see the air pressure number
-- Users can request my current location weather
-- Users can convert temperature in Celcius to Fahrenheit and vice versa
+- Users can see a list of jobs in a city by default
+- Users can search for jobs with a given keyword
+- Users can search for jobs with a city name, zip code, or other location
+- Users can select one option from at least 4 pre-defined options
+- Users can search for a full-time job only
+- Users can see a list of jobs with their logo, company name, location, and posted time.
+- When users select a job, I can see job descriptions and how to apply like the given design.
+- When users am on the job details page, I can go back to the search page
+- Users can see a list of jobs in the closest city from my location by default
 
 ## How To Use
 
@@ -70,7 +67,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/leoikeh99/weather-app
+$ git clone https://github.com/leoikeh99/github-jobs
 
 # Install dependencies
 $ npm install
