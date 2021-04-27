@@ -329,9 +329,6 @@ input[type="checkbox"] {
 .jobList li .title {
   font-size: 18px;
   margin: 5px 0px;
-  /* width: 300px;
-  overflow: hidden;
-  text-overflow: ellipsis; */
 }
 
 .jobList li .other {
@@ -506,5 +503,23 @@ input[type="checkbox"] {
 
   .description .second .time {
     margin-bottom: 8px;
+  }
+
+  .jobList li .title {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .jobList li .title {
+    font-size: 0.8rem;
+  }
+  .jobList li .location {
+    margin-right: 5px;
+  }
+
+  .jobList li .type {
+    font-size: 0.6rem;
+    padding: 3px;
   }
 }
